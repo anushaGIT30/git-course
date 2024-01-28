@@ -8,6 +8,7 @@
   body{
     background: green;
     padding: 0 10px;
+    background-image: url(img.jpg);
   }
   .wrapper{
     max-width: 500px;
@@ -22,9 +23,11 @@
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 25px;
-    color:orangered;
+    color:skyblue;
     text-transform: uppercase;
     text-align: center;
+    font-style: italic;
+    text-decoration-color: blue;
   }
   
   .wrapper .form{
@@ -118,7 +121,7 @@
   .wrapper .form .inputfield .check .checkmark{
     width: 15px;
     height: 15px;
-    border: 1px solid #fe0720;
+    border: 1px solid blue;
     display: block;
     position: relative;
   }
@@ -135,7 +138,7 @@
     display: none;
   }
   .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
-    background: black;
+    background: skyblue;
   }
   
   .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
@@ -147,7 +150,7 @@
      padding: 8px 10px;
     font-size: 15px; 
     border: 0px;
-    background:  purple;
+    background:  blue;
     color: #fff;
     cursor: pointer;
     border-radius: 3px;
@@ -155,7 +158,7 @@
   }
   
   .wrapper .form .inputfield .btn:hover{
-    background: #ffd658;
+    background: skyblue;
   }
   
   .wrapper .form .inputfield:last-child{
