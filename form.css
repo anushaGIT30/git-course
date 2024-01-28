@@ -22,7 +22,7 @@
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 25px;
-    color: #fec107;
+    color:orangered;
     text-transform: uppercase;
     text-align: center;
   }
@@ -118,7 +118,7 @@
   .wrapper .form .inputfield .check .checkmark{
     width: 15px;
     height: 15px;
-    border: 1px solid #fec107;
+    border: 1px solid #fe0720;
     display: block;
     position: relative;
   }
@@ -135,7 +135,7 @@
     display: none;
   }
   .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
-    background: #fec107;
+    background: black;
   }
   
   .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
@@ -147,7 +147,7 @@
      padding: 8px 10px;
     font-size: 15px; 
     border: 0px;
-    background:  #fec107;
+    background:  purple;
     color: #fff;
     cursor: pointer;
     border-radius: 3px;
